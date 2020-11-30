@@ -8,8 +8,23 @@ i<sup>th</sup> value of a line (linear equation) represents the value of a<sub>i
 Then, there is one additional line containing N integers, each of which represents value of y for each linear equation.
 
 ## Output Format
-N floating point numbers rounded to 2 decimal places, representing the values of x<sub>1</sub>,x<sub>2</sub>,...,x<sub>N</sub> in order. These values should satisfy the above equations.
+N floating point numbers rounded to 2 decimal places, representing the values of x<sub>1</sub>,x<sub>2</sub>,...,x<sub>N</sub> in order. These values satisfy the above equations.
 
 ## Constraints
 - 2 <= N <= 100
 - -100 <= a<sub>i</sub>,y <= 100
+
+## Execution
+```console
+user@linux:~/Linear-Equation-Solving-Using-Parallel-Gaussian-Elimination-MPI$ mpic++ lin_eq_solver.cpp
+user@linux:~/Linear-Equation-Solving-Using-Parallel-Gaussian-Elimination-MPI$ mpirun -np <number of processors> a.out
+```
+
+## Sample Test Case
+### Input
+2
+1 3
+1 4
+
+### Output
+0.00 1.00
