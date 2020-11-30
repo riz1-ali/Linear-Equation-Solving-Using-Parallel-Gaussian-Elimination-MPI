@@ -22,9 +22,9 @@ user@linux:~/Linear-Equation-Solving-Using-Parallel-Gaussian-Elimination-MPI$ mp
 
 ## Sample Test Case
 ### Input
-2
-1 3
-1 4
+2 <br/>
+1 3 <br/>
+1 4 <br/>
 
 ### Output
 0.00 1.00
