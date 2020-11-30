@@ -1,4 +1,5 @@
 # Linear-Equation-Solving-Using-Parallel-Gaussian-Elimination-MPI
+A Linear Equation Solver which uses Parallel Gaussian Elimination. Coded using C++ and OpenMPI.
 
 ## Input Format
 First line contains an integer N, denoting the number of variables in the linear equation (Let these variables are x<sub>1</sub>,x<sub>2</sub>,...,x<sub>N</sub>).
